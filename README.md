@@ -37,10 +37,10 @@ python compute_rdf.py --dt 2 \
 | `--file`       | string  | Path to `XDATCAR` file (default: `XDATCAR`)                                 |
 | `--exclude`    | float   | Time to exclude from the beginning of the trajectory (in picoseconds)       |
 | `--total`      | float   | Total time range to consider (in picoseconds)                               |
-| `--pairs`      | string  | Comma-separated list of atomic pairs to compute RDFs (e.g. `Si-O,O-O`)       |
+| `--pairs`      | string  | Comma-separated list of atomic pairs to compute RDFs (e.g. `Si-O,O-O`)      |
 | `--smearing`   | float   | Gaussian smearing width (default: `0.05`)                                   |
 | `--maxpeaks`   | int     | Number of RDF maxima to print for each pair                                 |
-
+| `--out`        | str     | Output file name                                                            |
 ## 📊 Output
 
 - Saves the RDF plot as: `rdf_aimd_filtered.png`
